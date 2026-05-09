@@ -1,35 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
 # Virtual environments
 venv/
 .venv/
 env/
 
-# Environment & secrets
-.env
-*.pem
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
+# Build artifacts
 build/
 dist/
 *.egg-info/
-.eggs/
 
-# IDE / OS
-.idea/
+# IDE / editor
 .vscode/
+.idea/
+
+# OS files
 .DS_Store
 Thumbs.db
 
-# Streamlit
-.streamlit/secrets.toml
-
-# Jupyter / notebooks checkpoints
-.ipynb_checkpoints/
-
-# Models / caches (large downloads)
-.cache/
-models/
+# Secrets
+.env
+credentials.json
+token.json
